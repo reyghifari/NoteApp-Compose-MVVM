@@ -17,3 +17,5 @@ data class Note(
     }
 }
 
+class InvalidNotedException(message : String): Exception(message)
+
